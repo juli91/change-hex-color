@@ -7,16 +7,12 @@ const hex = document.querySelector('.hex');
 colorBtn.addEventListener('click', changeColor);
 
 function changeColor() {
-    // let hexColor = '#';
-    
-    let hexColor = ['#'];
+    let hexColor = '#';
     
     for(let i=0; i<6; i++) {
         let random = Math.floor(Math.random()*hexNumbers.length);
-        hexColor.push(hexNumbers[random]);
-
-        // hexColor +=hexNumbers[random]
+        hexColor +=hexNumbers[random];
     }
-    bodyBcg.style.backgroundColor = hexColor.join('');
+    bodyBcg.style.backgroundColor = hexColor;
     hex.innerHTML = hexColor;
 }

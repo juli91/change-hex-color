@@ -13,15 +13,14 @@ body {
 }
 
 .hex {
-    font-size: 32px;
+    font-size: 2.5rem;
 }
 
 .colorBtn {
     color: white;
     background-color: rgb(135, 135, 135);
-    height: 50px;
-    padding: 0.5rem 0.75rem;
-    border-radius: 25px;
+    padding: 0.75rem 0.75rem;
+    border-radius: 2rem;
     border: 3px solid rgb(135, 135, 135);
     text-transform: capitalize;
     font-size: 1rem;
